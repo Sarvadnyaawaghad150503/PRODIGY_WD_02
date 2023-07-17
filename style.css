@@ -1,0 +1,175 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    
+    padding-top: 0px;
+    
+    
+  }
+  .heading{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%; 
+    margin: 14px;
+
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #container {
+    max-width: 500px;
+    margin: 20px auto;
+   
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 12px;
+    margin-top: 5px;
+
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    margin-left: 15x;
+    margin-bottom: 30px;
+    justify-content: center;
+  }
+  
+  li input[type="checkbox"] {
+   /* margin: 5px; */
+   margin-right: 10px;
+  }
+  
+  #taskCount {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  #addButton{
+    background-image: linear-gradient(
+        to bottom right,
+        rgba(79, 51, 176, 1),
+        rgba(210, 53, 165)
+      );
+      color: white;
+      width: 105%;
+      font-size: x-large;
+      font-family: Cambria, Cochin, Georgia, 
+
+  }
+  #taskInput{
+    width: 100%;
+    
+    
+  }
+  :placeholder-shown{
+    font-size: large;
+  }
+  
+  .taskCount{
+    font-family: Cambria, Cochin, Georgia;
+    font-size: xx-large;
+    
+
+  }
+  #taskList{
+    margin: 15px 0px;
+    
+  }
+
+  /* Add a class for the delete button */
+.deleteButton {
+    margin-left: 10px;
+    padding: 10px 25px;
+    background-image: linear-gradient(
+        to bottom right,
+        rgba(79, 51, 176, 1),
+        rgba(210, 53, 165)
+      );
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+  }
+  
+  .deleteButton:hover {
+    background-color: #d32f2f;
+  }
+  
+  .deleteButton:focus {
+    outline: none;
+  }
+  
+  /* Add a class for the task text */
+.taskText {
+    cursor: pointer;
+    width: 100%;
+    background-color: aliceblue;
+    color: black;
+    padding: 10px 10px ;
+    
+  }
+  
+  .taskText:hover {
+    text-decoration: underline;
+  }
+  
+  .taskText:focus {
+    outline: none;
+  }
+  
+
+  /* Style for the checkbox */
+input[type="checkbox"] {
+    /* Hide the default checkbox appearance */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #e90cde;
+    border-radius: 3px;
+    outline: none;
+    transition: all 0.3s ease;
+    /* Custom checkbox style */
+    background-color: #FFF;
+    position: relative;
+  }
+  
+  /* Style for the checked checkbox */
+  input[type="checkbox"]:checked {
+    /* Change the background color when checked */
+    background-color: #3366FF;
+  }
+  
+  /* Style for the tick mark */
+  input[type="checkbox"]:checked::before {
+    content: '\2713';
+    position: absolute;
+    top: 4px;
+    left: 5px;
+    font-size: 20px;
+    color: #FFF;
+  }
+  
